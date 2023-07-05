@@ -11,7 +11,7 @@
                 HorizontalAlignment="center"
                 VerticalAlignment="center"
                 Height="50"
-                Width="200" Click="Button_Click" />
+                Width="200" Click="Button_Click" Background="Magenta" />
 
         <Label x:Name="statuslabel" Margin="10"
             HorizontalAlignment="center"/>
