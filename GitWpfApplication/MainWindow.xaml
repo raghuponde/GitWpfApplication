@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:GitWpfApplication"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <StackPanel Margin="20">
+        <Button Content="Select Files" 
+                HorizontalAlignment="center"
+                VerticalAlignment="center"
+                Height="50"
+                Width="200" Click="Button_Click" />
 
-    </Grid>
+        <Label x:Name="statuslabel" Margin="10"
+            HorizontalAlignment="center"/>
+
+
+    </StackPanel>
 </Window>
